@@ -1,0 +1,11 @@
+{
+  "name": "hourglass-cli",
+  "version": "0.1.0",
+  "description": "When do you actually ship? A heatmap of your commits by weekday and hour, straight from git.",
+  "type": "module",
+  "bin": { "hourglass": "bin/hourglass.mjs" },
+  "scripts": { "test": "node --test test/" },
+  "engines": { "node": ">=18" },
+  "keywords": ["git", "cli", "heatmap", "productivity", "commits"],
+  "license": "MIT"
+}
